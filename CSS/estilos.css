@@ -1,0 +1,316 @@
+H1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.125rem;
+    color: #000000;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.navbar-nav {
+    gap: 1rem;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-item a:hover {
+    color: #ccc;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.t-producto{
+    text-align: center;
+}
+
+.product {
+    flex: 1 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #f00;
+}
+
+.buy-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 0 0 4px 4px;
+    cursor: pointer;
+}
+
+.product-info {
+    flex: 1 0 calc(33.33% - 20px);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.registration-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #444;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 215vh;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    height: 50vh;
+}
+
+.titulo-informacion{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    background-color: #333;
+    color: white;
+
+}
+
+.empa-titulo{
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+}
+
+.empaquetado{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    background-color: #666;
+}
+
+.titulo-contacto{
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    color: #000000;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #666;
+    color: #000000;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-list svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    fill: #555;
+}
+
+.contact-list span {
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.contact-list a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+.titulo-pago{
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    color: #000000;
+}
+
+.pago-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #666;
+    color: #000000;
+}
+
+.pago-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.pago-list svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    fill: #555;
+}
+
+.pago-list span {
+    font-size: 16px;
+    color: #555;
+}
+
+.pago-list a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.pago-list a:hover {
+    text-decoration: underline;
+}
+
+.carrito{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    color: red;
+}
+
+.carrito-text{
+    text-decoration: underline;
+}
+
+.volver-a-la-tienda{
+    text-align: center;
+}
+
+.carrito2{
+    font-size: 15px;
+    padding: auto;
+    margin: auto;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: auto;
+    margin: auto;
+    background-color: #666;
+    text-align: center;
+}
