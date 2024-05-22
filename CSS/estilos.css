@@ -1,10 +1,20 @@
 /* Estilos para H1 */
 H1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: bold;
     color: #000;
     text-align: center;
     margin: 50px 0 20px;
+    animation: bounce 1s infinite alternate; /* Animación de rebote */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 .todo {
