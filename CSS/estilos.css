@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* Estilos para H1 */
+=======
+
+>>>>>>> d01ff7314c7c0c702ebccfe883858e1c5f597d32
 H1 {
     font-size: 2.25rem;
     font-weight: bold;
@@ -8,6 +12,7 @@ H1 {
     animation: bounce 1s infinite alternate; /* Animación de rebote */
 }
 
+<<<<<<< HEAD
 @keyframes bounce {
     0% {
         transform: translateY(0);
@@ -22,6 +27,9 @@ H1 {
 }
 
 /* Estilos para párrafos */
+=======
+
+>>>>>>> d01ff7314c7c0c702ebccfe883858e1c5f597d32
 p {
     font-size: 1.125rem;
     color: #000;
@@ -184,6 +192,7 @@ form button[type="submit"]:hover {
     background-color: #444;
 }
 
+<<<<<<< HEAD
 /* Estilos para el carrusel */
 .carousel-inner {
     display: flex;
@@ -231,21 +240,66 @@ form button[type="submit"]:hover {
 
 /* Estilos para las listas de contacto y pago */
 .contact-list li,
-.pago-list li {
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
+=======
+.carousel-item img {
+    width: auto;
+    height: 225vh;
+    object-fit: cover;
 }
 
+.carousel-inner {
+    height: 100vh;
+}
+
+main {
+    padding: 20px;
+}
+
+.titulo-informacion {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.empa-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.empaquetado {
+    margin-bottom: 10px;
+}
+
+.titulo-pago {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pago-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+>>>>>>> d01ff7314c7c0c702ebccfe883858e1c5f597d32
+.pago-list li {
+    margin-bottom: 10px;
+}
+
+<<<<<<< HEAD
 .contact-list svg,
 .pago-list svg {
     width: 24px;
     height: 24px;
+=======
+.pago-list li i {
+>>>>>>> d01ff7314c7c0c702ebccfe883858e1c5f597d32
     margin-right: 10px;
-    fill: #555;
 }
 
+<<<<<<< HEAD
 .contact-list span,
 .pago-list span {
     font-size: 16px;
@@ -255,15 +309,67 @@ form button[type="submit"]:hover {
 .contact-list a,
 .pago-list a {
     color: #000;
-    text-decoration: none;
+=======
+.titulo-contacto {
+    font-size: 18px;    
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list li span {
+    margin-right: 10px;
+}
+
+.bi {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.contact-list a {
+    color: var(--secondary-color);
+>>>>>>> d01ff7314c7c0c702ebccfe883858e1c5f597d32
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+<<<<<<< HEAD
 .contact-list a:hover,
 .pago-list a:hover {
     text-decoration: underline;
 }
 
 /* Estilos para el contenedor */
+=======
+.contact-list a:hover {
+    color: var(--brand-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-informacion, .empa-titulo, .titulo-pago, .titulo-contacto {
+    margin-bottom: 10px;
+}
+
+.empaquetado, .pago-list li, .contact-list li {
+    margin: 0;
+}
+
+>>>>>>> d01ff7314c7c0c702ebccfe883858e1c5f597d32
 .container {
     display: flex;
     justify-content: center;
@@ -271,7 +377,10 @@ form button[type="submit"]:hover {
     height: 30vh;
 }
 
+<<<<<<< HEAD
 /* Estilos para el carrito */
+=======
+>>>>>>> d01ff7314c7c0c702ebccfe883858e1c5f597d32
 .carrito {
     text-align: center;
     padding: 20px;
@@ -297,6 +406,7 @@ form button[type="submit"]:hover {
     right: 0;
     background-color: #666;
     text-align: center;
+<<<<<<< HEAD
     padding: 20px;
     color: #fff;
 }
@@ -348,3 +458,6 @@ form button[type="submit"]:hover {
         width: 90%;
     }
 }
+=======
+}
+>>>>>>> d01ff7314c7c0c702ebccfe883858e1c5f597d32
