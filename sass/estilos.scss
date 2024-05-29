@@ -149,6 +149,18 @@ button[type="submit"] {
 }
 }
 
+.carousel-inner {
+    img {
+    width: 100%;
+    height: auto;
+      max-height: 500px; // Ajusta esta altura máxima según tus necesidades
+
+    @media (max-width: 768px) {
+        max-height: 300px; // Ajusta esta altura máxima para pantallas pequeñas
+    }
+    }
+}
+
 // Responsive styles
 @each $name, $size in $breakpoints {
 @media (max-width: $size) {

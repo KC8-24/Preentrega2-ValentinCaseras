@@ -121,6 +121,17 @@ form button[type=submit]:hover {
   background-color: #1a1a1a;
 }
 
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+@media (max-width: 768px) {
+  .carousel-inner img {
+    max-height: 300px;
+  }
+}
+
 @media (max-width: 1200px) {
   .product, .product-info {
     flex: 1 0 calc(50% - 20px);
