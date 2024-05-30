@@ -1,6 +1,8 @@
 1. Mejora en el etiquetado.
 2. Linkeo y uso de sass.
 3. Uso de variables, mixins, anidaciones, operaciones matematicas, condicionales, bucles y media queries.
-4. Oragnisacion estetica del codigo de estilos.css y estilos.scss
-5. Agregado de meta keywords y descriptions 
-6. Implementación de animaciones
+4. Oragnisacion estetica del codigo de estilos.css y estilos.scss.
+5. Agregado de meta keywords y descriptions .
+6. Implementación de animaciones.
+7. Incorporacion de favicon.
+8. Incorporacion de comentarios y alineacion en cada HTML.
