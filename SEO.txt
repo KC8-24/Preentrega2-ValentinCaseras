@@ -6,3 +6,4 @@
 6. Implementación de animaciones.
 7. Incorporacion de favicon.
 8. Incorporacion de comentarios y alineacion en cada HTML.
+8. Arreglo de titulos de pagian en cada HTML.
